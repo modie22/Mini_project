@@ -3,7 +3,7 @@ import css from "./progress.module.css"
 
 const progress = () => {
   return (
-    <div>progress</div>
+    <div>progress component</div>
   )
 }
 

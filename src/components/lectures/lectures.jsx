@@ -3,7 +3,7 @@ import css from "./Lectures.module.css"
 
 const Lectures = () => {
   return (
-    <div>Lectures</div>
+    <div>Lectures component</div>
   )
 }
 
