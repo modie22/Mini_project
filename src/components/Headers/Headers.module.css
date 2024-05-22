@@ -1,0 +1,37 @@
+.container_header{
+ display: flex;
+ background: #f1f1f1;
+ align-items: center;
+}
+
+.header_text{
+font-family: "Inter", sans-serif;
+font-weight: 500;
+font-size: 40px;
+color: #505050;
+margin-right: 48px;
+margin-left: 40px;
+}
+.header_label{
+    position: relative;
+    margin: 33px 0;
+    margin-right: 30px;
+}
+.header_input{
+
+background: #fdfdfd;
+border-radius: 20px;
+padding: 8px 20px;
+width: 507px;
+height: 36px;
+padding-left: 50px;
+
+font-weight: 500;
+font-size: 16px;
+color: #bebebe;
+}
+.header_svg{
+    position: absolute;
+    left: 20px;
+    top: 25%;
+}
