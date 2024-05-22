@@ -1,10 +1,10 @@
 import React from 'react'
 //import css from "./progress.module.css"
 
-const progress = () => {
+const ProgressComponent = () => {
   return (
     <div>progress component</div>
   )
 }
 
-export default progress
+export default ProgressComponent

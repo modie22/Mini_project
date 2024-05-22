@@ -1,8 +1,10 @@
 import Dashboard from "pages/Dashboard/Dashboard";
-import Lectures from "pages/Lectures/Lectures";
 import { Route, Routes } from "react-router-dom";
 import Layout from "./Layout/Layout";
-import Progress from "pages/Progress/Progress";
+import { lazy } from "react";
+
+const Lectures = lazy(() => import("pages/Lectures/Lectures"));
+const Progress = lazy(() => import("pages/Progress/Progress"));
 
 export const App = () => {
   return (
