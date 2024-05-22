@@ -1,5 +1,5 @@
 import React from 'react'
-import css from "./progress.module.css"
+//import css from "./progress.module.css"
 
 const progress = () => {
   return (
