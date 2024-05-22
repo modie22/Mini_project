@@ -1,16 +1,19 @@
+import Dashboard from "pages/Dashboard/Dashboard";
+import Lectures from "pages/Lectures/Lectures";
+import { Route, Routes } from "react-router-dom";
+import Layout from "./Layout/Layout";
+import Progress from "pages/Progress/Progress";
+
 export const App = () => {
   return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101'
-      }}
-    >
-      React homework template
-    </div>
+    <Routes>
+    <Route path="/" element={<Layout />}>
+      <Route index element={<Dashboard />} />
+      <Route path="lectures" element={<Lectures />} />
+      <Route path="progress" element={<Progress />}>
+      </Route>
+      <Route path="*" element={<div>Page not found</div>} />
+    </Route>
+  </Routes>
   );
 };
