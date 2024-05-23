@@ -1,7 +1,8 @@
 import { NavLink } from 'react-router-dom';
-
-import css from './loginPage.module.css';
+import css from '../registerPage/registerPage.module.css';
+import csss from './loginPage.module.css';
 import { useState } from 'react';
+import Registlogo from '../../img/team5.jpg';
 
 export const LoginPage = () => {
   const [rememberPassword, setRemember] = useState(true);
@@ -28,7 +29,7 @@ export const LoginPage = () => {
                   Увійти
                 </button>
                 <p
-                  className={css.login__link}
+                  className={csss.login__link}
                   onClick={() => setRemember(false)}
                 >
                   Забули пароль?
@@ -37,7 +38,7 @@ export const LoginPage = () => {
                 <NavLink to="/registr" className={css.regist__link}>
                   <p>В мене немає аккаунту.</p>
                   <p
-                    className={`${css.regist__link} ${css.login__link__style}`}
+                    className={`${css.regist__link} ${csss.login__link__style}`}
                   >
                     Зареєструватися
                   </p>
@@ -47,7 +48,7 @@ export const LoginPage = () => {
 
             <div className={css.regist__images}>
               <div className={css.regist__dessert}>
-                <img src="/" alt="" />
+                <img src={Registlogo} alt="images" />
               </div>
             </div>
           </div>
@@ -57,10 +58,10 @@ export const LoginPage = () => {
           <div className={css.regist__border}>
             <div className={css.register}>
               <form action="" className={css.regist__form}>
-                <p className={`${css.regist__title} ${css.forgot__title}`}>
+                <p className={`${css.regist__title} ${csss.forgot__title}`}>
                   Забули пароль?
                 </p>
-                <p className={`${css.regist__link} ${css.forgot__title}`}>
+                <p className={`${css.regist__link} ${csss.forgot__title}`}>
                   Ми надішлемо код підтвердження <br /> на вашу електронну пошту
                 </p>
                 <input
@@ -76,7 +77,7 @@ export const LoginPage = () => {
 
             <div className={css.regist__images}>
               <div className={css.regist__dessert}>
-                <img src="/" alt="" />
+                <img src={Registlogo} alt="images" />
               </div>
             </div>
           </div>
