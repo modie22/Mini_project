@@ -1,10 +1,13 @@
 import React from 'react';
-import css from "./Board.module.css"
+import css from './Board.module.css';
+import img_zax from './images/Frame22.jpg';
+import img_zax_sec from './images/Frame23.jpg';
+import rozkld from './images/rozkld.jpg';
 
 const DashboardComponent = () => {
   return (
     <>
-      <div>
+      <div className={css.container_board}>
         <div className={css.container_prog}>
           <p>Успішність</p>
           <div className={css.container_prog_list}>
@@ -126,9 +129,42 @@ const DashboardComponent = () => {
             </ul>
           </div>
         </div>
+
+        <div className={css.container_zax}>
+          <p>Заходи</p>
+          <div>
+            <ul className={css.zax_list}>
+              <li>
+                <img src={img_zax} alt="Технології" />
+                <div>
+                  <p className={css.zax_list_text}>
+                    Вебінар про нові інструменти в minecraft
+                  </p>
+                  <p>30 травня 11:00</p>
+                </div>
+                <button>Зареєструватись</button>
+              </li>
+              <li>
+                <img src={img_zax_sec} alt="Технології" />
+                <div>
+                  <p className={css.zax_list_text}>
+                    Вебінар про нові інструменти в minecraft
+                  </p>
+                  <p>30 травня 11:00</p>
+                </div>
+                <button>Зареєструватись</button>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <img className={css.container_img} src={rozkld} alt="Розклад" />
       </div>
 
-      <div></div>
+      <div>
+     
+
+      </div>
     </>
   );
 };

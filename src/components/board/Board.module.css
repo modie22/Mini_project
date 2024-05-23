@@ -1,6 +1,6 @@
-.container_prog {
-  margin-top: 26px;
-  margin-left: 32px;
+.container_board {
+  padding-top: 26px;
+  padding-left: 32px;
 }
 .container_prog > p {
   font-weight: 400;
@@ -29,6 +29,7 @@
 }
 .progg_list li > p {
   margin-top: 10px;
+  margin-left: 18px;
 }
 .progg_list li:nth-child(4) {
   border-right: none;
@@ -48,4 +49,62 @@
 }
 .progg_list p {
   color: #fdfdfd;
+}
+
+/* next container */
+.container_zax {
+  margin-top: 35px;
+  margin-bottom: 36px;
+}
+
+.container_zax > p {
+  font-weight: 400;
+  font-size: 25px;
+  color: #505050;
+  margin-bottom: 16px;
+}
+.zax_list {
+  display: flex;
+  padding-left: 52px;
+  padding-top: 16px;
+  padding-bottom: 10px;
+  flex-direction: column;
+  gap: 26px;
+  box-shadow: 5px 5px 15px 0 rgba(100, 100, 100, 0.12);
+  background: #f1f1f1;
+  border-radius: 20px;
+  width: 680px;
+  height: 230px;
+}
+.zax_list li {
+  display: flex;
+}
+.zax_list img {
+  margin-right: 40px;
+}
+.zax_list button {
+  margin-bottom: 10px;
+  align-self: flex-end;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  padding: 10px;
+  width: 139px;
+  height: 37px;
+  background: #63b048;
+  font-weight: 400;
+  font-size: 14px;
+  color: #fff;
+}
+.zax_list_text {
+  font-weight: 600;
+  font-size: 18px;
+  color: #505050;
+  margin-bottom: 10px;
+}
+.zax_list_text + p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #939393;
 }
