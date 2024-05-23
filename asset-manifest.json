@@ -1,23 +1,24 @@
 {
   "files": {
     "main.css": "/Mini_project/static/css/main.d4956417.css",
-    "main.js": "/Mini_project/static/js/main.8d884231.js",
-    "static/js/357.ece82f48.chunk.js": "/Mini_project/static/js/357.ece82f48.chunk.js",
+    "main.js": "/Mini_project/static/js/main.ebc43a69.js",
+    "static/css/257.a17bf1db.chunk.css": "/Mini_project/static/css/257.a17bf1db.chunk.css",
+    "static/js/257.074ee551.chunk.js": "/Mini_project/static/js/257.074ee551.chunk.js",
     "static/js/256.1d2129ed.chunk.js": "/Mini_project/static/js/256.1d2129ed.chunk.js",
     "static/media/team5.jpg": "/Mini_project/static/media/team5.9db020f092cfa88fb126.jpg",
-    "static/media/lectures.jpg": "/Mini_project/static/media/lectures.0dd68e09eee41388abc7.jpg",
     "static/media/photo.jpg": "/Mini_project/static/media/photo.5671e61cb24b023800f6.jpg",
     "static/media/rozkld.jpg": "/Mini_project/static/media/rozkld.5f6db4fd972c142394a2.jpg",
     "static/media/Frame22.jpg": "/Mini_project/static/media/Frame22.62adef7dffa346772519.jpg",
     "static/media/Ellipse 2.jpg": "/Mini_project/static/media/Ellipse 2.c4d0aa9751088631c787.jpg",
     "index.html": "/Mini_project/index.html",
     "main.d4956417.css.map": "/Mini_project/static/css/main.d4956417.css.map",
-    "main.8d884231.js.map": "/Mini_project/static/js/main.8d884231.js.map",
-    "357.ece82f48.chunk.js.map": "/Mini_project/static/js/357.ece82f48.chunk.js.map",
+    "main.ebc43a69.js.map": "/Mini_project/static/js/main.ebc43a69.js.map",
+    "257.a17bf1db.chunk.css.map": "/Mini_project/static/css/257.a17bf1db.chunk.css.map",
+    "257.074ee551.chunk.js.map": "/Mini_project/static/js/257.074ee551.chunk.js.map",
     "256.1d2129ed.chunk.js.map": "/Mini_project/static/js/256.1d2129ed.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d4956417.css",
-    "static/js/main.8d884231.js"
+    "static/js/main.ebc43a69.js"
   ]
 }
