@@ -1,25 +1,25 @@
-import Headers from 'components/Headers/Headers'
-import Menu from 'components/Menu/Menu'
-import React, { Suspense } from 'react'
-import { Outlet } from 'react-router-dom'
-import css from "./Layot.module.css"
+import Headers from 'components/Headers/Headers';
+import Menu from 'components/Menu/Menu';
+import React, { Suspense } from 'react';
+import { Outlet } from 'react-router-dom';
+import css from './Layot.module.css';
 
 const Layout = () => {
   return (
-   <>
-    <header>
-        <Headers/>
-    </header>
-    <main>
+    <>
+      <header>
+        <Headers />
+      </header>
+      <main>
         <div className={css.container_main}>
-        <Menu/>
-        <Suspense fallback={<div>Loading...</div>}>
+          <Menu />
+          <Suspense fallback={<div>Loading...</div>}>
             <Outlet />
-        </Suspense>
+          </Suspense>
         </div>
-    </main>
-   </>
-  )
-}
+      </main>
+    </>
+  );
+};
 
-export default Layout
+export default Layout;
