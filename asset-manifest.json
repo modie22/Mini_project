@@ -1,22 +1,25 @@
 {
   "files": {
-    "main.css": "/Mini_project/static/css/main.a6a6b6e2.css",
-    "main.js": "/Mini_project/static/js/main.7015aca4.js",
+    "main.css": "/Mini_project/static/css/main.8ef479c3.css",
+    "main.js": "/Mini_project/static/js/main.359b698e.js",
     "static/js/357.ece82f48.chunk.js": "/Mini_project/static/js/357.ece82f48.chunk.js",
-    "static/js/41.b8c8a328.chunk.js": "/Mini_project/static/js/41.b8c8a328.chunk.js",
+    "static/css/638.930c3a2e.chunk.css": "/Mini_project/static/css/638.930c3a2e.chunk.css",
+    "static/js/638.ca3b2d0f.chunk.js": "/Mini_project/static/js/638.ca3b2d0f.chunk.js",
+    "static/media/team5.jpg": "/Mini_project/static/media/team5.9db020f092cfa88fb126.jpg",
     "static/media/lectures.jpg": "/Mini_project/static/media/lectures.0dd68e09eee41388abc7.jpg",
     "static/media/photo.jpg": "/Mini_project/static/media/photo.5671e61cb24b023800f6.jpg",
     "static/media/rozkld.jpg": "/Mini_project/static/media/rozkld.5f6db4fd972c142394a2.jpg",
     "static/media/Frame22.jpg": "/Mini_project/static/media/Frame22.62adef7dffa346772519.jpg",
     "static/media/Ellipse 2.jpg": "/Mini_project/static/media/Ellipse 2.c4d0aa9751088631c787.jpg",
     "index.html": "/Mini_project/index.html",
-    "main.a6a6b6e2.css.map": "/Mini_project/static/css/main.a6a6b6e2.css.map",
-    "main.7015aca4.js.map": "/Mini_project/static/js/main.7015aca4.js.map",
+    "main.8ef479c3.css.map": "/Mini_project/static/css/main.8ef479c3.css.map",
+    "main.359b698e.js.map": "/Mini_project/static/js/main.359b698e.js.map",
     "357.ece82f48.chunk.js.map": "/Mini_project/static/js/357.ece82f48.chunk.js.map",
-    "41.b8c8a328.chunk.js.map": "/Mini_project/static/js/41.b8c8a328.chunk.js.map"
+    "638.930c3a2e.chunk.css.map": "/Mini_project/static/css/638.930c3a2e.chunk.css.map",
+    "638.ca3b2d0f.chunk.js.map": "/Mini_project/static/js/638.ca3b2d0f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a6a6b6e2.css",
-    "static/js/main.7015aca4.js"
+    "static/css/main.8ef479c3.css",
+    "static/js/main.359b698e.js"
   ]
 }
