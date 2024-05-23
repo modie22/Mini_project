@@ -1,5 +1,6 @@
 import React from 'react'
 import css from "./Headers.module.css"
+import photo from "./photo.jpg"
 
 const Headers = () => {
   return (
@@ -14,6 +15,8 @@ const Headers = () => {
   <path d="M2.5 17.5L6.125 13.875" stroke="#BEBEBE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
 </svg>
         </label>
+        <img src={photo} alt="avatar" />
+        <p className={css.name_person}>Мельник Владислав</p>
       </div>
     </div>
     </>

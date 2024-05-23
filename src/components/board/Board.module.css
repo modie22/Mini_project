@@ -89,6 +89,7 @@
   align-items: center;
   justify-content: center;
   border-radius: 20px;
+  cursor: pointer;
   padding: 10px;
   width: 139px;
   height: 37px;
@@ -107,4 +108,91 @@
   font-weight: 400;
   font-size: 16px;
   color: #939393;
+}
+
+/* container teachers*/
+.container_second{
+  padding-top: 26px;
+padding-left: 68px;
+}
+
+.container_teachers > p{
+  font-weight: 400;
+font-size: 25px;
+color: #505050;
+margin-bottom: 16px;
+}
+.container_teachers img{
+  border-radius: 100%;
+  margin-right: 20px;
+}
+.teachers_list {
+display: flex;
+
+flex-direction: column;
+border-radius: 20px;
+padding: 17px 17px;
+width: 280px;
+box-shadow: 5px 5px 15px 0 rgba(100, 100, 100, 0.12);
+background: #f1f1f1;
+}
+.teachers_list li{
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  padding-top: 17px;
+  padding-bottom: 17px;
+  border-bottom: 1px solid #505050;
+
+}
+.teachers_list li:nth-child(3){
+  border: none;
+}
+.name_teacher{
+  font-weight: 500;
+font-size: 18px;
+color: #505050;
+}
+.name_teacher + p{
+  font-weight: 400;
+font-size: 14px;
+color: #505050;
+}
+
+/* chat container*/
+.container_chat{
+  margin-top: 52px;
+}
+.container_chat img{
+  border-radius: 100%;
+  margin-right: 25px;
+}
+
+.container_chat > p{
+  font-weight: 400;
+  font-size: 25px;
+  color: #505050;
+  margin-bottom: 16px;
+}
+.chat_list{
+  border-radius: 20px;
+width: 280px;
+padding: 17px 15px;
+box-shadow: 5px 5px 15px 0 rgba(100, 100, 100, 0.12);
+background: #f1f1f1;
+}
+.chat_list li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.chat_name{
+  font-weight: 600;
+font-size: 18px;
+color: #505050;
+}
+.chat_name + p{
+  font-weight: 400;
+font-size: 14px;
+color: #bebebe;
 }

@@ -3,6 +3,15 @@ import css from './Board.module.css';
 import img_zax from './images/Frame22.jpg';
 import img_zax_sec from './images/Frame23.jpg';
 import rozkld from './images/rozkld.jpg';
+import teach_f from "./images/Ellipse 1.jpg"
+import teach_s from "./images/Ellipse 2.jpg"
+import teach_t from "./images/Ellipse 3.jpg"
+
+import avatar_a from "./images/avatar1.png"
+import avatar_b from "./images/avatar2.png"
+import avatar_c from "./images/avatar3.png"
+import avatar_d from "./images/avatar4.png"
+import avatar_e from "./images/avatar5.png"
 
 const DashboardComponent = () => {
   return (
@@ -161,8 +170,75 @@ const DashboardComponent = () => {
         <img className={css.container_img} src={rozkld} alt="Розклад" />
       </div>
 
-      <div>
-     
+      <div className={css.container_second}>
+
+       <div className={css.container_teachers}>
+        <p>Викладачі</p>
+        <ul className={css.teachers_list}>
+          <li>
+            <img src={teach_f} alt="avatar" />
+            <div>
+              <p className={css.name_teacher}>Maksym Melnik</p>
+              <p>C++</p>
+            </div>
+          </li>
+          <li>
+            <img src={teach_s} alt="avatar" />
+            <div>
+              <p className={css.name_teacher}>Anastasiya Fam</p>
+              <p>Java</p>
+            </div>
+          </li>
+          <li>
+            <img src={teach_t} alt="avatar" />
+            <div>
+              <p className={css.name_teacher}>Olya Palma</p>
+              <p>Robotics</p>
+            </div>
+          </li>
+        </ul>
+       </div>
+
+       <div className={css.container_chat}>
+        <p>Чати</p>
+        <ul className={css.chat_list}>
+          <li>
+            <img src={avatar_a} alt="" />
+            <div>
+              <p className={css.chat_name}>Zakhar Zanko</p>
+              <p>Повідомленя</p>
+            </div>
+          </li>
+          <li>
+            <img src={avatar_b} alt="" />
+            <div>
+              <p className={css.chat_name}>Katya Baranova</p>
+              <p>Повідомленя</p>
+            </div>
+          </li>
+          <li>
+            <img src={avatar_c} alt="" />
+            <div>
+              <p className={css.chat_name}>Roman Pstyha</p>
+              <p>Повідомленя</p>
+            </div>
+          </li>
+          <li>
+            <img src={avatar_d} alt="" />
+            <div>
+              <p className={css.chat_name}>Arsen Woitek</p>
+              <p>Повідомленя</p>
+            </div>
+          </li>
+          <li>
+            <img src={avatar_e} alt="" />
+            <div>
+              <p className={css.chat_name}>Ruslana Ostapchuk</p>
+              <p>Повідомленя</p>
+            </div>
+          </li>
+        </ul>
+       </div>
 
       </div>
     </>
