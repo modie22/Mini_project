@@ -1,5 +1,6 @@
 import React from 'react';
 import css from './Menu.module.css';
+import { NavLink } from 'react-router-dom';
 
 const Menu = () => {
   return (
@@ -45,6 +46,7 @@ const Menu = () => {
           <h1>Vlad FIT 4-11</h1>
         </div>
         <ul className={css.container_nav_menu}>
+        <NavLink to='/'>
           <li>
             <svg
               width="28"
@@ -75,8 +77,10 @@ const Menu = () => {
                 stroke-linejoin="round"
               />
             </svg>
-            <p>Dashboard</p>
+             <p>Dashboard</p>
           </li>
+          </NavLink>
+          <NavLink to="/lectures">
           <li>
             <svg
               width="28"
@@ -102,6 +106,7 @@ const Menu = () => {
             </svg>
             <p>Лекції</p>
           </li>
+          </NavLink>
           <li>
             <svg
               width="28"

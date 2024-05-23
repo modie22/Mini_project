@@ -46,3 +46,17 @@ color: #bebebe;
 font-size: 18px;
 color: #505050;
 }
+.register_link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    cursor: pointer;
+    width: 139px;
+    height: 37px;
+    background: #6987d3;
+    font-weight: 400;
+    font-size: 14px;
+    color: #fff;
+    margin-right: 10px;
+}
