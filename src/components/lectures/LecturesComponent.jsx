@@ -1,9 +1,14 @@
 import React from 'react'
 //import css from "./Lectures.module.css"
+import lec from "./lectures.jpg"
 
 const LecturesComponent = () => {
   return (
-    <div>Lectures component</div>
+    <>
+      <div>
+        <div><img src={lec} alt="" /></div>
+      </div>
+    </>
   )
 }
 
