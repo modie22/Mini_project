@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Mini_project/static/css/main.d4956417.css",
-    "main.js": "/Mini_project/static/js/main.ebc43a69.js",
+    "main.css": "/Mini_project/static/css/main.3e3b18f9.css",
+    "main.js": "/Mini_project/static/js/main.096a6829.js",
     "static/css/257.a17bf1db.chunk.css": "/Mini_project/static/css/257.a17bf1db.chunk.css",
     "static/js/257.074ee551.chunk.js": "/Mini_project/static/js/257.074ee551.chunk.js",
     "static/js/256.1d2129ed.chunk.js": "/Mini_project/static/js/256.1d2129ed.chunk.js",
@@ -11,14 +11,14 @@
     "static/media/Frame22.jpg": "/Mini_project/static/media/Frame22.62adef7dffa346772519.jpg",
     "static/media/Ellipse 2.jpg": "/Mini_project/static/media/Ellipse 2.c4d0aa9751088631c787.jpg",
     "index.html": "/Mini_project/index.html",
-    "main.d4956417.css.map": "/Mini_project/static/css/main.d4956417.css.map",
-    "main.ebc43a69.js.map": "/Mini_project/static/js/main.ebc43a69.js.map",
+    "main.3e3b18f9.css.map": "/Mini_project/static/css/main.3e3b18f9.css.map",
+    "main.096a6829.js.map": "/Mini_project/static/js/main.096a6829.js.map",
     "257.a17bf1db.chunk.css.map": "/Mini_project/static/css/257.a17bf1db.chunk.css.map",
     "257.074ee551.chunk.js.map": "/Mini_project/static/js/257.074ee551.chunk.js.map",
     "256.1d2129ed.chunk.js.map": "/Mini_project/static/js/256.1d2129ed.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d4956417.css",
-    "static/js/main.ebc43a69.js"
+    "static/css/main.3e3b18f9.css",
+    "static/js/main.096a6829.js"
   ]
 }
