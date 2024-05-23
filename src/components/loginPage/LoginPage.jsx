@@ -1,6 +1,6 @@
 import { NavLink } from 'react-router-dom';
 
-import './loginPage.css';
+import css from './loginPage.module.css';
 import { useState } from 'react';
 
 export const LoginPage = () => {
@@ -9,66 +9,73 @@ export const LoginPage = () => {
   return (
     <>
       {rememberPassword ? (
-        <div className="regist__page">
-          <div className="regist__border">
-            <div className="register">
-              <form action="" className="regist__form">
-                <p className="regist__title">Особистий кабінет</p>
+        <div className={css.regist__page}>
+          <div className={css.regist__border}>
+            <div className={css.register}>
+              <form action="" className={css.regist__form}>
+                <p className={css.regist__title}>Особистий кабінет</p>
                 <input
                   type="text"
                   placeholder="Ім’я"
-                  className="regist__input"
+                  className={css.regist__input}
                 />
                 <input
                   type="text"
                   placeholder="Пароль"
-                  className="regist__input"
+                  className={css.regist__input}
                 />
-                <button type="submit" className="regist__button">
+                <button type="submit" className={css.regist__button}>
                   Увійти
                 </button>
-                <p className="login__link" onClick={() => setRemember(false)}>
+                <p
+                  className={css.login__link}
+                  onClick={() => setRemember(false)}
+                >
                   Забули пароль?
                 </p>
 
-                <NavLink to="/registr" className="regist__link">
+                <NavLink to="/registr" className={css.regist__link}>
                   <p>В мене немає аккаунту.</p>
-                  <p className="regist__link login__link__style">
+                  <p
+                    className={`${css.regist__link} ${css.login__link__style}`}
+                  >
                     Зареєструватися
                   </p>
                 </NavLink>
               </form>
             </div>
 
-            <div className="regist__images">
-              <div className="regist__dessert">
+            <div className={css.regist__images}>
+              <div className={css.regist__dessert}>
                 <img src="/" alt="" />
               </div>
             </div>
           </div>
         </div>
       ) : (
-        <div className="regist__page">
-          <div className="regist__border">
-            <div className="register">
-              <form action="" className="regist__form">
-                <p className="regist__title forgot__title">Забули пароль?</p>
-                <p className="regist__link forgot__title">
+        <div className={css.regist__page}>
+          <div className={css.regist__border}>
+            <div className={css.register}>
+              <form action="" className={css.regist__form}>
+                <p className={`${css.regist__title} ${css.forgot__title}`}>
+                  Забули пароль?
+                </p>
+                <p className={`${css.regist__link} ${css.forgot__title}`}>
                   Ми надішлемо код підтвердження <br /> на вашу електронну пошту
                 </p>
                 <input
                   type="text"
                   placeholder="Введіть Вашу електронну адресу"
-                  className="regist__input"
+                  className={css.regist__input}
                 />
-                <button type="submit" className="regist__button">
+                <button type="submit" className={css.regist__button}>
                   Надіслати код
                 </button>
               </form>
             </div>
 
-            <div className="regist__images">
-              <div className="regist__dessert">
+            <div className={css.regist__images}>
+              <div className={css.regist__dessert}>
                 <img src="/" alt="" />
               </div>
             </div>
