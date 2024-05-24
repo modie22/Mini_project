@@ -43,7 +43,7 @@ const Menu = () => {
               stroke-linejoin="round"
             />
           </svg>
-          <h1>Vlad FIT 4-11</h1>
+          <h1>Vlad FIT 4-12</h1>
         </div>
         <ul className={css.container_nav_menu}>
         <NavLink to='/'>
